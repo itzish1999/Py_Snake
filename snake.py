@@ -156,6 +156,7 @@ while True:
         ##snake and border collision    
         if snek.xcor()>280 or snek.xcor()< -300 or snek.ycor()> 240 or snek.ycor()< -240:
                 time.sleep(1)
+                # clear() will delete all the drawings of the turtle on the screen
                 screen.clear()
                 screen.bgcolor('black')
                 scoring.goto(0,0)
